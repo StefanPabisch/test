@@ -5,7 +5,7 @@ namespace Pabisch\Flaggenpabisch;
  * Class AbstractFlag
  * Überklasse aller Flaggen
  */
-abstract class Flag
+abstract class AbstractFlag
 {
     private $name;
     private $farbe;

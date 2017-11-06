@@ -3,6 +3,12 @@ namespace Pabisch\Flaggenpabisch;
 
 use Pabisch\Flaggenpabisch;
 
+if(isset($_GET['name'])) {
+    echo $_GET['name'];
+};
+
+function outputHTML($flag){};
+
 $flag1 = new CircleFlag(
     "Japen",
     "Weiß",
@@ -36,6 +42,9 @@ $flag5 = new TriangleFlag(
     4,
     2
 );
+
+$flag6 = new TriangleFlag("hallo", "grün", 5, 5);
+echo $flag6;
 
 echo $flag1;
 echo $flag2;
